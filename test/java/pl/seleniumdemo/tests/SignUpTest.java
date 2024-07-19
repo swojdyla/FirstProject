@@ -27,7 +27,7 @@ public class SignUpTest extends BaseTest {
                 .confrimPassword("Test123")
                 .singUp();
 
-
+// test komentarz 
         Assert.assertTrue(loggedUserPage.getHeadingText().contains(lastName));
         Assert.assertEquals(loggedUserPage.getHeadingText(), "Hi, Sebastian Testowy");
     }
